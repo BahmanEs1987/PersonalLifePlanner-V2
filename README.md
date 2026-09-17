@@ -17,3 +17,11 @@ Daily data stays in IndexedDB on the device. No analytics, tracking or automatic
 
 ## GitHub Pages
 Publish the repository from `main` / root. Do not put personal data, passwords, or exported backups in the public repository.
+
+
+## UI/Calendar/Vehicle revision
+- Removed the top app icon completely; Search remains in the header.
+- Fixed Persian/Jalali date parsing by using an ASCII-digit Persian calendar formatter.
+- Fixed Esfand length calculation for leap/non-leap Jalali years.
+- Added a Vehicle module with vehicle profile, service/oil/filter records, mileage and next-service reminder, component/repair history, and vehicle expenses linked to Finance category `خودرو`.
+- Service Worker cache version bumped to `life-planner-final-3`.
